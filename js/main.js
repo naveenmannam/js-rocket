@@ -11,7 +11,7 @@ function startLaunch(){
     rock.className = 'rocket flying';
 }
 
-function startLaunch(){
+function stopLaunch(){
     rock.className = 'rocket';
 }
 
