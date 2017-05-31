@@ -33,4 +33,20 @@
 	height: 100px;
 	width: 20px;
 	bottom: 20px;
+	transition: bottom 5s;
 }
+
+.flying {
+	bottom: 1000px;
+}
+
+.button {
+	position: absolute;
+	text-align: center;
+}
+
+.launch {
+	width: 100%;
+	text-align: center;
+}
+
