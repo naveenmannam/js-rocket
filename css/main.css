@@ -1,32 +1,20 @@
-body {
-	background: #f0f0f0;
+/*.head {
+	position: fixed;
+}*/
+.left {
+	height: 100%;
+	width: 50%;
+	position: fixed;
+	background-color: aquamarine;
+	top: 0;
+	left: 0;
 }
 
-.main {
-}
-.boxone {
-}
-
-.boxtwo {
-}
-
-.colorOne {
-	visibility: hidden;
-	background-color: red;
-	transition: background-color 2s;
-}
-
-.colorTwo {
-	visibility: visible;
-	background-color: green;
-	transition: background-color 2s;
-}
-
-.box {
-	border : 1px solid black;
-	border-radius: 5px;
-	height: 200px;
-	width: 200px;
-	padding: 20px;
-	margin-bottom: 10px;
+.right {
+	height: 100%;
+	width: 50%;
+	position: absolute;
+	background-color: aliceblue;
+	top: 0;
+	right: 0;
 }
