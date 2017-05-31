@@ -1,6 +1,32 @@
 body {
-    background-color: #f0f0f0;
-    margin: 30px auto;
-    width: 90%;
+	background: #f0f0f0;
+}
 
+.main {
+}
+.boxone {
+}
+
+.boxtwo {
+}
+
+.colorOne {
+	visibility: hidden;
+	background-color: red;
+	transition: background-color 2s;
+}
+
+.colorTwo {
+	visibility: visible;
+	background-color: green;
+	transition: background-color 2s;
+}
+
+.box {
+	border : 1px solid black;
+	border-radius: 5px;
+	height: 200px;
+	width: 200px;
+	padding: 20px;
+	margin-bottom: 10px;
 }
