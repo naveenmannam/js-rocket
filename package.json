@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/naveenmannam/js-rocket/issues"
   },
-  "homepage": "https://github.com/naveenmannam/js-rocket#readme"
+  "homepage": "https://github.com/naveenmannam/js-rocket#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
 }
