@@ -10,11 +10,16 @@ var count = countdown.innerText;
 // Add the event listener functions
 function startLaunch() {
     for (var i = count; i >= 0; i--) {
-        countdown.innerText = i;
+        // countdown.innerText = i;
+        setInterval(display(countdown,i),1000);
         if (countdown.innerText == 0) {
             rock.className = 'rocket flying';
         }
     }
+}
+
+function display(ele,para){
+    ele.innerText = para;
 }
 
 function stopLaunch() {
